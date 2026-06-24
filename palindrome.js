@@ -8,7 +8,7 @@ function palindrome(st){
             result = result + s[i];
             rev = s[i]+ rev;
         }
-    }
+    } 
     return result === rev;
 }
 
